@@ -1,0 +1,11 @@
+<mvc:View controllerName="com.myorg.o4.controller.MainView" displayBlock="true" 
+	xmlns="sap.m" 
+	xmlns:mvc="sap.ui.core.mvc">
+	<App id="app">
+		<Page>
+			<content>
+				<Button id="bookListButton" text="{i18n>ShowBooks}" press=".onNavToBooks" class="sapUiTinyMarginEnd"/>
+			</content>
+		</Page>
+	</App>
+</mvc:View> 

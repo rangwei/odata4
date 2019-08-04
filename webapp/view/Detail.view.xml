@@ -1,0 +1,15 @@
+<mvc:View controllerName="com.myorg.o4.controller.Detail" 
+    xmlns="sap.m" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:f="sap.ui.layout.form">
+
+    <Page title="{i18n>title}" showNavButton="true" navButtonPress=".onNavBack" class="sapUiResponsiveContentPadding">
+        <content>
+            <Text text="{ID}"/>
+            <Text text="{title}"/>
+            <Text text="{stock}"/>
+            <Text text="{author_ID}"/>
+
+        </content>
+    </Page>
+</mvc:View> 
